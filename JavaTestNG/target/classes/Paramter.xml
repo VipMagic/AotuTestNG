@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="paramter参数化测试">
+
+
+    <test name="paramter">
+
+        <classes>
+            <paramter name="java.name" value="zhangsan"></paramter>
+            <paramter age="java.age" value="19"></paramter>
+
+            <class name="java.com.course.testing.paramter.ParamterTest"></class>
+        </classes>
+
+
+    </test>
+
+</suite>

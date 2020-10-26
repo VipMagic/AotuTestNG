@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="多线程" parallel="tests" thread-count="2">
+    <!--
+    methods级别：所以的用例都可以在不同的线程下去执行
+    thread-count:代表最大线程数
+    xml文件配置这种不能指定线程池，只有方法上才可以指定线程池
+
+    -->
+
+
+    <test name="demo1">
+
+        <classes>
+            <class name="java.com.course.testing.multThread.MultiThreadOnXml"></class>
+        </classes>
+
+    </test>
+
+    <test name="demo2">
+        <classes>
+            <class name="java.com.course.testing.multThread.MultiThreadOnAnnotion"></class>
+
+        </classes>
+
+
+    </test>
+
+
+
+</suite>

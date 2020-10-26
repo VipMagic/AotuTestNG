@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dd04393e-ccd4-4895-8e35-94b7648ee55e" name="https://github.com/VipMagic/AotuTestNG" url="https://github.com/VipMagic/AotuTestNG">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

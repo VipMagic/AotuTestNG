@@ -1,0 +1,31 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+
+<suite name="GroupsOn分组测试">
+
+    <test name="runall运行">
+        <classes>
+            <class name="java.com.course.testing.groups.GroupsOnClass1"/>
+            <class name="java.com.course.testing.groups.GroupsOnClass2"/>
+            <class name="java.com.course.testing.groups.GroupsOnClass3"/>
+        </classes>
+
+    </test>
+    <test name="onLyRunStu">
+        <groups>
+            <run>
+                <!--只运行stu-->
+                <include name="stu"></include>
+            </run>
+
+        </groups>
+        <classes>
+            <class name="java.com.course.testing.groups.GroupsOnClass1"/>
+            <class name="java.com.course.testing.groups.GroupsOnClass2"/>
+            <class name="java.com.course.testing.groups.GroupsOnClass3"/>
+        </classes>
+
+
+    </test>
+
+
+</suite>

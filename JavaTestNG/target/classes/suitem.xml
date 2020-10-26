@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG测试框架">
+
+    <test name="login登录测试">
+        <classes>
+            <class name="java.com.course.testing.suitle.SuitleConfig"/>
+            <class name="java.com.course.testing.suitle.LoginTest"/>
+        </classes>>
+    </test>
+
+    <test name="pay支付测试">
+        <classes>
+            <class name="java.com.course.testing.suitle.SuitleConfig"/>
+            <class name="java.com.course.testing.suitle.PayTest"/>
+
+        </classes>
+    </test>
+
+</suite>
+
+
+
+
+

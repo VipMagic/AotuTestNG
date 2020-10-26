@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="接口测试套件">
+
+    <test name="测试模块">
+        <!--
+         testng+Extentreport做测试报告
+         https://www.jianshu.com/p/2b036c3cb576
+
+         -->
+
+        <classes>
+
+            <class name="java.com.course.testing.extentreport.TestDemo"></class>
+            <methods>
+                <inclube name="test1"/>
+                <inclube name="test2"/>
+                <inclube name="test3"/>
+                <inclube name="logDemo"/>
+            </methods>
+        </classes>
+
+        <!--配置监听器-->
+        <listeners>
+
+            <!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+            <listener class-name="com.course.testing.extentreport.ExtentTestNGIReporterListenerOld"/>
+        </listeners>
+
+    </test>
+
+
+
+
+</suite>
